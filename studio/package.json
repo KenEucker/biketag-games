@@ -6,7 +6,7 @@
   "main": "package.json",
   "types": "schemas/schema.d.ts",
   "author": "Ken Eucker <hello@keneucker.com>",
-  "license": "UNLICENSED",
+  "license": "AGPL-3.0-or-later",
   "scripts": {
     "start": "sanity start",
     "dev": "sanity start",

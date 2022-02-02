@@ -40,6 +40,11 @@ export default {
           type: "string",
         },
         {
+          title: "ArchiveHash",
+          name: "archivehash",
+          type: "string",
+        },
+        {
           title: "SubReddit",
           name: "subreddit",
           type: "string",
