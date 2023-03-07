@@ -52,7 +52,7 @@ export default {
         {
             title: "Boundary",
             name: "boundary",
-            type: "geopoint",
+            type: "string",
         },
         {
             type: "array",
