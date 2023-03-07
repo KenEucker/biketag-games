@@ -1,6 +1,6 @@
-# biketag-games 
+# biketag-games
 
-This repository holds the data schema and objects created within a Sanity.io dataset for the redundant storage of both content and images for games of BikeTag using the [biketag-api](https://npmjs.com/package/biketag) driven by the serverside application [biketag-app](https://npmjs.com/package/biketag-app). 
+This repository holds the data schema and objects created within a Sanity.io dataset for the redundant storage of both content and images for games of BikeTag using the [biketag-api](https://npmjs.com/package/biketag) driven by the serverside application [biketag-app](https://npmjs.com/package/biketag-app).
 
 ## Schema
 
@@ -11,7 +11,7 @@ Game {
   slug: string
   name: string
   ambassadors: Ambassador[]
-  boundary: boundary
+  boundary: string
   mainhash: string
   queuehash: string
   subreddit: string

@@ -288,11 +288,11 @@ export interface Game extends SanityDocument {
   subreddit?: string;
 
   /**
-   * Boundary — `geopoint`
+   * Boundary — `string`
    *
    *
    */
-  boundary?: SanityGeoPoint;
+  boundary?: string;
 
   /**
    * tags — `array`
