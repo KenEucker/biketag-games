@@ -53,6 +53,17 @@ export default {
     },
     {
       type: "array",
+      name: "achievements",
+      weak: true,
+      of: [
+        {
+          type: "reference",
+          to: [{ type: "achievement" }],
+        },
+      ],
+    },
+    {
+      type: "array",
       name: "altNames",
       of: [
         {

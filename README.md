@@ -94,6 +94,18 @@ Setting = {
 }
 ```
 
+### Achievement
+A BikeTag Game Achievement used to assign achievements to BikeTag Players.
+```
+Achievement = {
+  slug: string
+  name: string
+  description: string
+  key: string
+  value: string
+}
+```
+
 ## What you have (from Sanity.io generation)
 Deployed from [sanity.io/create](https://www.sanity.io/create/?template=sanity-io%2Fsanity-template-translation-examples).
 
