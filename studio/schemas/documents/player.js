@@ -21,10 +21,7 @@ export default {
     {
       title: "Bicon",
       name: "bicon",
-      type: "image",
-      options: {
-        hotspot: true,
-      },
+      type: "string",
     },
     {
       type: "array",
