@@ -32,5 +32,10 @@ export default {
       name: 'value',
       type: 'string',
     },
+    {
+      title: 'Achievement Group',
+      name: 'group',
+      type: 'string',
+    },
   ],
 }
