@@ -10,19 +10,21 @@
     "dev": "lerna run dev --parallel",
     "format": "lerna run format",
     "lint": "lerna run lint",
-    "postinstall": "lerna bootstrap",
     "test": "echo \"Error: no test specified\" && exit 1",
     "login": "cd studio && npm run login",
     "deploy": "cd studio && npm run deploy",
     "upgrade": "cd studio && npm run upgrade"
   },
   "devDependencies": {
-    "@sanity/cli": "^3.5.1",
-    "lerna": "^3.14.0",
-    "prettier": "^2.5.0",
+    "@sanity/cli": "^3.26.0",
+    "lerna": "^8.0.2",
+    "prettier": "^2.0.0",
     "sanity-codegen": "^0.9.8"
   },
   "dependencies": {
     "@sanity/server": "^3.1.4"
-  }
+  },
+  "workspaces": [
+    "studio"
+  ]
 }
