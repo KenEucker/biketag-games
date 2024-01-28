@@ -6,10 +6,10 @@ import { logo } from './plugins/logo/logo'
 import schemas from './schemas/schema'
 
 export default defineConfig({
-  name: 'biketag-sanity',
-  title: 'Biketag Sanity',
-  projectId: 'x37ikhvs',
-  dataset: 'production',
+  name: process.env.SANITY_PROJECT_NAME,
+  title: process.env.SANITY_PROJECT_TITLE,
+  projectId: process.env.SANITY_PROJECT_ID,
+  dataset: process.env.SANITY_PROJECT_DATASET,
   plugins: [
     structureTool(),
     visionTool(),
