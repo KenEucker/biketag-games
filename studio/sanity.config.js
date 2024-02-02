@@ -15,7 +15,6 @@ export default defineConfig({
     visionTool(),
     '@sanity/components',
     'intl-input',
-    '@sanity/google-maps-input',
     'media'
   ],
   tools: (prev) => {

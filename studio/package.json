@@ -23,7 +23,6 @@
   "dependencies": {
     "@sanity/client": "^6.11.2",
     "@sanity/components": "^2.14.0",
-    "@sanity/google-maps-input": "^3.0.2",
     "@sanity/react-hooks": "^2.36.2",
     "@sanity/vision": "^3.26.0",
     "prop-types": "^15.8",
