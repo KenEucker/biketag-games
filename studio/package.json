@@ -23,6 +23,7 @@
   "dependencies": {
     "@sanity/client": "^6.11.2",
     "@sanity/components": "^2.14.0",
+    "@sanity/google-maps-input": "^3.0.2",
     "@sanity/react-hooks": "^2.36.2",
     "@sanity/vision": "^3.26.0",
     "prop-types": "^15.8",
@@ -32,7 +33,7 @@
     "sanity": "^3.26.0",
     "sanity-plugin-intl-input": "^5.6.5",
     "sanity-plugin-media": "^2.2.5",
-    "styled-components": "^6.1.8"
+    "styled-components": "5.2"
   },
   "devDependencies": {
     "@nodelib/fs.walk": "^2.0.0",
