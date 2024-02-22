@@ -1,30 +1,43 @@
 {
+  "name": "biketag-games",
   "private": true,
-  "name": "biketag",
   "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "types": "schemas/schema.d.ts",
+  "author": "Ken Eucker <hello@keneucker.com>",
+  "license": "AGPL-3.0-or-later",
   "scripts": {
-    "codegen": "cd studio && npm run generate",
-    "build-all": "npm run build && npm run build-studio",
-    "build": "lerna run build --parallel",
-    "build-studio": "(cd studio && npm run build)",
-    "dev": "lerna run dev --parallel",
-    "format": "lerna run format",
-    "lint": "lerna run lint",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "login": "cd studio && npm run login",
-    "deploy": "cd studio && npm run deploy",
-    "upgrade": "cd studio && npm run upgrade"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/client": "^6.14.2",
+    "@sanity/document-internationalization": "^2.0.3",
+    "@sanity/google-maps-input": "^3.0.2",
+    "@sanity/ui": "^2.0.7",
+    "@sanity/vision": "^3.30.0",
+    "next": "14.1.0",
+    "next-sanity": "^8.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "sanity": "^3.30.0",
+    "sanity-codegen": "^0.9.8",
+    "sanity-plugin-media": "^2.2.5",
+    "styled-components": "^6.1.8"
   },
   "devDependencies": {
-    "@sanity/cli": "^3.26.0",
-    "lerna": "^8.0.2",
-    "prettier": "^2.0.0",
-    "sanity-codegen": "^0.9.8"
-  },
-  "dependencies": {
-    "@sanity/server": "^3.1.4"
-  },
-  "workspaces": [
-    "studio"
-  ]
+    "@babel/core": "^7.23.9",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "typescript": "^5"
+  }
 }
