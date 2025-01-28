@@ -27,5 +27,10 @@ export default {
       name: 'zipcode',
       type: 'string',
     },
+    {
+      title: 'Radius',
+      name: 'radius',
+      type: 'number',
+    },
   ],
 }
