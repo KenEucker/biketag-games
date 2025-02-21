@@ -32,5 +32,10 @@ export default {
       name: 'radius',
       type: 'number',
     },
+    {
+      title: 'UTC Offset',
+      name: 'utc',
+      type: 'number',
+    },
   ],
 }
