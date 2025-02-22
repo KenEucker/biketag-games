@@ -35,7 +35,7 @@ export default {
     {
       title: 'UTC Offset',
       name: 'utc',
-      type: 'number',
+      type: 'string',
     },
   ],
 }
