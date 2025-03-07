@@ -33,8 +33,8 @@ export default {
       type: 'number',
     },
     {
-      title: 'UTC Offset',
-      name: 'utc',
+      title: 'TimeZone',
+      name: 'tz',
       type: 'string',
     },
   ],
