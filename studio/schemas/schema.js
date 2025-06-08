@@ -11,6 +11,7 @@ import game from './documents/game'
 import region from './documents/region'
 import ambassador from './documents/ambassador'
 import setting from './documents/setting'
+import stat from './documents/stat'
 import achievement from './documents/achievement'
 
 import { translateFields } from './fieldTranslation'
@@ -43,6 +44,7 @@ export default createSchema({
             region,
             ambassador,
             setting,
+            stat,
             achievement,
         ]))
 })
